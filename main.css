@@ -507,7 +507,7 @@ footer{
   right: 25px;
   line-height: 0px;
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: black;
  }
  nav.active ul{
   display: flex !important;
