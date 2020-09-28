@@ -499,6 +499,7 @@ footer{
   line-height: 30px;
   z-index: 1;
   cursor: pointer;
+  color: white;
  }
  .toggle.active:before{
   content: '\f00d';
@@ -506,6 +507,7 @@ footer{
   right: 25px;
   line-height: 0px;
   cursor: pointer;
+  color: rgb(0, 0, 0);
  }
  nav.active ul{
   display: flex !important;
