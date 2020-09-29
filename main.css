@@ -278,6 +278,7 @@ button:active{
 }
 h3{
  letter-spacing: 2px;
+ margin-bottom: 0px;
 }
 h4{
  color: white;
@@ -308,12 +309,12 @@ footer p:nth-child(2){
  text-align: center;
 }
 footer{
- height:200px;
  display: flex;
  flex-direction: column;
  align-items: center;
  justify-content: center;
  position: relative;
+ height: auto;
 }
 .social-icons a{
  width:40px;
@@ -322,7 +323,7 @@ footer{
  justify-content: center;
  align-items: center;
  background-color:#e6e3e3;
- margin:20px 10px;
+ margin:10px 10px;
  border-radius:50%;
 }
 .social-icons{
@@ -342,14 +343,10 @@ footer{
  color:#FFFFFF;
  transition:all ease 0.5s;
 }
- 
 .copyright{
  color:#565555;
  font-size: 12px;
- position: absolute;
- left:50%;
- bottom:10px;
- transform: translateX(-50%);
+ text-align: center;
 }
 .social{
  position: fixed;
@@ -540,9 +537,7 @@ footer{
  footer p:nth-child(2){
   width: 90%;
  }
- 
 }
-
 .animated {
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
