@@ -11,6 +11,20 @@ body{
  z-index: 1;
  background-color: #2B2B2B;
 }
+.box-1, .box-2, .box-3{
+  transition: transform .2s;
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  -ms-transition: transform .2s;
+  -o-transition: transform .2s;
+}
+.box-1:hover, .box-2:hover, .box-3:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
 ul{
  list-style:none;
 }
