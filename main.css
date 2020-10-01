@@ -19,11 +19,11 @@ body{
   -o-transition: transform .2s;
 }
 .box-1:hover, .box-2:hover, .box-3:hover{
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 ul{
  list-style:none;
@@ -185,10 +185,15 @@ button:active{
  font-family: calibri;
  background-color:#262525;
 }
-.services{
- height:400px;
+.services{ 
  background-color:#ffffff;
- padding: 2% 10% 0px 10%;
+ padding: 0px 10% 0px 10%;
+}
+#services-column-01{
+ height: 320px;
+}
+#services-column-02{
+ height: 250px;
 }
 .services-text p:nth-child(1){
  font-family: calibri;
@@ -432,7 +437,8 @@ footer{
   justify-content: center;
   flex-wrap: wrap;
  }
- .services{
+ .services{ 
+  padding-top: 0px;
   height: auto;
  }
  .box-1,.box-2,.box-3{
@@ -535,10 +541,17 @@ footer{
   width:90%;
   text-align: center;
  }
+ #services-column-01{
+ height: 750px;
+}
+ #services-column-02{
+ height: 670px;
+ }
  .services-text{
   width: 100%;
  }
  .contact-me{
+  margin-top: 10px;
   height: auto;
  }
  .contact-me p{
