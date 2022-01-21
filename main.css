@@ -591,3 +591,7 @@ footer{
 .fadeIn {
     animation-name: fadeIn;
 }
+
+.text-white {
+  color: rgb(206, 192, 70) !important;
+}
