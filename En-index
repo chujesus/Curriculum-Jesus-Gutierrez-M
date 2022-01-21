@@ -13,29 +13,29 @@
 <body class="animated fadeIn">
     <section id="home">
         <nav id="fixed-top">
-            <a class="logo">Currículo</a>
+            <a class="logo">Curriculum</a>
             <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about-me">Sobre mí</a></li>
-                <li><a href="#footer">Contacto</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#footer">Contact me</a></li>
             </ul>
             <div class="toggle"></div>
 
         </nav>
         <div class="text-container">
-            <p>JESÚS GUTIÉRREZ M</p>
-            <p>Desarrollador Web</p>
+            <p>Hello,</p>
+            <p>I&#8217;M JESÚS</p>
+            <p>Designer &amp; Developer</p>
         </div>
         <img alt="model" class="model" src="./images/Jesús.png" />
     </section>
     <div id="about-me" class="about-container">
         <img src="./images/about-Jesús-img.png" />
         <div class="about-text">
-            <p>Sobre Mí</p>
-            <p>Desarrollador Web</p>
-            <p>Hola, soy un desarrollador Web Frontend y Backend, con habilidad Intelectual, ética, valores y
-                orientación hacia resultados y motivado por aprendizaje diario y proactividad para aprender nuevas
-                tecnologías.</p>
+            <p>About Me</p>
+            <p>Developer &amp; Designer</p>
+            <p>Hello, my name is Jesús Gutierrez. Studies: University of Costa Rica headquarters Liberia, Guanacaste. I
+                am a developer and also a designer. I work Frontend and Backend.</p>
             <a type="button" class="down-cv" href="./Currículo - A Jesús Gutiérrez M 2022.pdf" target="_blank">CV -
                 es</a>
             <!--   <a type="button" class="down-cv" href="./Currículo - A Jesús Gutiérrez M _ en.pdf" target="_blank">CV -
@@ -110,7 +110,7 @@
     </div> -->
     <div id="services-column-01" class="services">
         <div class="services-text">
-            <p>Habilidades en:</p>
+            <p>Qualities</p>
             <p>Frontend y Backend</p>
         </div>
         <div class="box-container">
@@ -153,10 +153,12 @@
     </div>
     <div class="contact-me">
         <h4>OTHER INFORMATION</h4>
-        <p>Licencia de Conducir: B2 - Nivel de Inglés: Básico.</p>
+        <p>License: B2 - Level of English: Basic - Intellectual ability, ethics and values - Orientation
+            towards results - Communication and problem solving skills - Motivated by daily learning and proactivity
+            to learn new technology.</p>
     </div>
     <footer id="footer">
-        <h3>CONTACTOS</h3>
+        <h3>CONTACT ME</h3>
         <div class="social-icons">
             <a href="https://www.facebook.com/chujesus10/" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.linkedin.com/in/jes%C3%BAs-guti%C3%A9rrez-121367209/" target="_blank"><i
