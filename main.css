@@ -190,10 +190,10 @@ button:active{
  padding: 0px 10% 0px 10%;
 }
 #services-column-01{
- height: 320px;
+ /*height: 320px;*/
 }
 #services-column-02{
- height: 250px;
+ /*height: 250px;*/
 }
 .services-text p:nth-child(1){
  font-family: calibri;
@@ -232,7 +232,7 @@ button:active{
  justify-content: center;
  display: flex;
  flex-direction: column;
- margin: 0px 4px;
+ margin: 0.5rem 4px;
 }
  
 .box-1{
@@ -542,10 +542,10 @@ footer{
   text-align: center;
  }
  #services-column-01{
- height: 750px;
+ /*height: 750px;*/
 }
  #services-column-02{
- height: 670px;
+ /*height: 670px;*/
  }
  .services-text{
   width: 100%;
